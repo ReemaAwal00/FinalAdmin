@@ -1,17 +1,4 @@
-/**
-=========================================================
-* Soft UI Dashboard React - v4.0.1
-=========================================================
 
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 
 const reportsBarChartData = {
   chart: {
@@ -21,23 +8,23 @@ const reportsBarChartData = {
   items: [
     {
       icon: { color: "primary", component: "library_books" },
-      label: "users",
-      progress: { content: "36K", percentage: 60 },
+      label: "Total",
+      progress: { content: "30", percentage: 50 },
     },
     {
       icon: { color: "info", component: "touch_app" },
-      label: "clicks",
-      progress: { content: "2M", percentage: 90 },
+      label: "Today",
+      progress: { content: "2", percentage: 20 },
     },
     {
       icon: { color: "warning", component: "payment" },
-      label: "sales",
-      progress: { content: "$435", percentage: 30 },
+      label: "Earned",
+      progress: { content: "+55%", percentage: 30 },
     },
     {
       icon: { color: "error", component: "extension" },
-      label: "items",
-      progress: { content: "43", percentage: 50 },
+      label: "Cancel",
+      progress: { content: "4", percentage: 50 },
     },
   ],
 };

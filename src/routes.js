@@ -1,17 +1,3 @@
-/**
-=========================================================
-* Soft UI Dashboard React - v4.0.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 
 /** 
   All of the routes for the Soft UI Dashboard React are added here,
@@ -67,7 +53,7 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Tables",
+    name: "Reservation",
     key: "tables",
     route: "/tables",
     icon: <Office size="12px" />,
@@ -76,31 +62,31 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Billing",
+    name: "Medical Report",
     key: "billing",
     route: "/billing",
     icon: <CreditCard size="12px" />,
     component: <Billing />,
     noCollapse: true,
   },
-  {
-    type: "collapse",
-    name: "Virtual Reality",
-    key: "virtual-reality",
-    route: "/virtual-reality",
-    icon: <Cube size="12px" />,
-    component: <VirtualReality />,
-    noCollapse: true,
-  },
-  {
-    type: "collapse",
-    name: "RTL",
-    key: "rtl",
-    route: "/rtl",
-    icon: <Settings size="12px" />,
-    component: <RTL />,
-    noCollapse: true,
-  },
+  // {
+  //   type: "collapse",
+  //   name: "Virtual Reality",
+  //   key: "virtual-reality",
+  //   route: "/virtual-reality",
+  //   icon: <Cube size="12px" />,
+  //   component: <VirtualReality />,
+  //   noCollapse: true,
+  // },
+  // {
+  //   type: "collapse",
+  //   name: "RTL",
+  //   key: "rtl",
+  //   route: "/rtl",
+  //   icon: <Settings size="12px" />,
+  //   component: <RTL />,
+  //   noCollapse: true,
+  // },
   { type: "title", title: "Account Pages", key: "account-pages" },
   {
     type: "collapse",

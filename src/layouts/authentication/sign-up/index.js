@@ -1,17 +1,4 @@
-/**
-=========================================================
-* Soft UI Dashboard React - v4.0.1
-=========================================================
 
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 
 import { useState } from "react";
 
@@ -34,7 +21,7 @@ import Socials from "layouts/authentication/components/Socials";
 import Separator from "layouts/authentication/components/Separator";
 
 // Images
-import curved6 from "assets/images/curved-images/curved14.jpg";
+import curved6 from "assets/images/curved-images/signinpage.jpg";
 
 function SignUp() {
   const [agreement, setAgremment] = useState(true);

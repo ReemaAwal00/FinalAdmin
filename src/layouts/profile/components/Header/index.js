@@ -1,17 +1,4 @@
-/**
-=========================================================
-* Soft UI Dashboard React - v4.0.1
-=========================================================
 
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 
 import { useState, useEffect } from "react";
 
@@ -40,7 +27,7 @@ import breakpoints from "assets/theme/base/breakpoints";
 
 // Images
 import burceMars from "assets/images/bruce-mars.jpg";
-import curved0 from "assets/images/curved-images/curved0.jpg";
+import curved0 from "assets/images/curved-images/signinpage.jpg";
 
 function Header() {
   const [tabsOrientation, setTabsOrientation] = useState("horizontal");
@@ -116,7 +103,7 @@ function Header() {
                 Alex Thompson
               </SoftTypography>
               <SoftTypography variant="button" color="text" fontWeight="medium">
-                CEO / Co-Founder
+                Doctor
               </SoftTypography>
             </SoftBox>
           </Grid>
@@ -128,9 +115,9 @@ function Header() {
                 onChange={handleSetTabValue}
                 sx={{ background: "transparent" }}
               >
-                <Tab label="App" icon={<Cube />} />
-                <Tab label="Message" icon={<Document />} />
-                <Tab label="Settings" icon={<Settings />} />
+               
+                <Tab label="Edit Profile" icon={<Document />} />
+              
               </Tabs>
             </AppBar>
           </Grid>

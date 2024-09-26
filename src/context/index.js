@@ -67,6 +67,7 @@ function SoftUIControllerProvider({ children }) {
   const initialState = {
     miniSidenav: false,
     transparentSidenav: true,
+    //color change from here for sidebar
     sidenavColor: "info",
     transparentNavbar: true,
     fixedNavbar: true,
